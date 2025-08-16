@@ -15,9 +15,9 @@ debug e testes.
 
 Existem algumas alternativas para testar códigos em GoLang online:
 
-- [OneCompiler](onecompiler.com/go)
-- [myCompiler](mycompiler.io/new/go)
-- [OnlineGDB](onlinegdb.com/online_go_compiler)
+- [OneCompiler](https://onecompiler.com/go)
+- [myCompiler](https://www.mycompiler.io/new/go)
+- [OnlineGDB](https://www.onlinegdb.com/online_go_compiler)
 
 ## Programa Hello World
 
@@ -36,11 +36,11 @@ Dentro dessa pasta, existe uma sub-pasta para cada aspecto da sintaxe de GoLang 
 
 - [comentarios](https://github.com/aldebap/go_completo_total/tree/main/sintaxe/01_comentarios)
 - [literais](https://github.com/aldebap/go_completo_total/tree/main/sintaxe/02_literais)
+- [constantes](https://github.com/aldebap/go_completo_total/tree/main/sintaxe/03_constantes)
+- [variaveis](https://github.com/aldebap/go_completo_total/tree/main/sintaxe/04_variaveis)
 
 TODO: corrigir todos os links
 
-- [constantes](https://github.com/aldebap/Masterclass_Golang/tree/main/sintaxe/constantes)
-- [variaveis](https://github.com/aldebap/Masterclass_Golang/tree/main/sintaxe/variaveis)
 - [arrays](https://github.com/aldebap/Masterclass_Golang/tree/main/sintaxe/arrays)
 - [slices](https://github.com/aldebap/Masterclass_Golang/tree/main/sintaxe/slices)
 - [maps](https://github.com/aldebap/Masterclass_Golang/tree/main/sintaxe/maps)
@@ -74,30 +74,3 @@ utilizar o sinal CTRL + C para interromper o servidor.
 Na pasta [test](https://github.com/aldebap/Masterclass_Golang/tree/main/test) existe uma coleção
 para o [Postman](https://www.postman.com/) que permite testar o Hello API utilizando uma requisição
 na pasta __Hello API__ da coleção.
-
-## Rest API
-
-Essa é uma implementação de um API Restful para uma entidade produto, que utiliza os pacotes
-externos GorillaMux e o MongoDriver.
-Para que o compilador possa resolver fazer os download das dependências dos pacotes utilizados
-é necessário executar os seguintes comandos:
-
-```sh
-go mod init main
-go mod tidy
-```
-
-Com isso serão gerados dois arquivos necessários para a compilação do servidor: __go.mod__ e
-__go.sum__.
-Caso esses arquivos sejam apagados, basta executar novamente os dois comandos acima.
-
-Um script para compilar o servidor para o RestAPI, criar um container para esse servidor e iniciar
-uma instância do MongoDB e do servidor usando Docker Compose está disponível na pasta
-[cmd](https://github.com/aldebap/Masterclass_Golang/tree/main/RestAPI/cmd), e é executada com o
-seguinte comando:
-
-```sh
-cmd/packageNRun.sh
-```
-
-Para encerrar a execução de ambos os containers basta teclar CTRL + C
