@@ -38,13 +38,13 @@ Dentro dessa pasta, existe uma sub-pasta para cada aspecto da sintaxe de GoLang 
 - [literais](https://github.com/aldebap/go_completo_total/tree/main/sintaxe/02_literais)
 - [constantes](https://github.com/aldebap/go_completo_total/tree/main/sintaxe/03_constantes)
 - [variaveis](https://github.com/aldebap/go_completo_total/tree/main/sintaxe/04_variaveis)
+- [arrays](https://github.com/aldebap/go_completo_total/tree/main/sintaxe/05_arrays)
+- [slices](https://github.com/aldebap/go_completo_total/tree/main/sintaxe/06_slices)
+- [maps](https://github.com/aldebap/go_completo_total/tree/main/sintaxe/07_maps)
+- [ponteiros](https://github.com/aldebap/go_completo_total/tree/main/sintaxe/08_ponteiros)
 
 TODO: corrigir todos os links
 
-- [arrays](https://github.com/aldebap/Masterclass_Golang/tree/main/sintaxe/arrays)
-- [slices](https://github.com/aldebap/Masterclass_Golang/tree/main/sintaxe/slices)
-- [maps](https://github.com/aldebap/Masterclass_Golang/tree/main/sintaxe/maps)
-- [ponteiros](https://github.com/aldebap/Masterclass_Golang/tree/main/sintaxe/ponteiros)
 - [condicoes](https://github.com/aldebap/Masterclass_Golang/tree/main/sintaxe/condicoes)
 - [lacos gerais](https://github.com/aldebap/Masterclass_Golang/tree/main/sintaxe/lacos%20gerais)
 - [lacos sobre arrays](https://github.com/aldebap/Masterclass_Golang/tree/main/sintaxe/lacos%20sobre%20arrays)
